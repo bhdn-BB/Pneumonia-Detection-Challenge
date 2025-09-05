@@ -1,0 +1,9 @@
+BATCH_SIZE = 32
+CSV_FILE = "/kaggle/input/rsna-pneumonia-detection-challenge/stage_2_train_labels.csv"
+IMAGES_DIR = "/kaggle/input/rsna-pneumonia-detection-challenge/stage_2_train_images"
+OUTOUT_DIR = "/kaggle/working/rtdetr_rsna_output"
+MODEL_NAME = '"PekingU/rtdetr_r101vd_coco_o365"'
+NUM_EPOCHS = 40
+LR = 5e-5
+PATIENCE = 5
+LOG_STEP = 10
